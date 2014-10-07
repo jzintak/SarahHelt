@@ -20,7 +20,9 @@ body {
   left: 0;
   z-index: 20;
 }
-
+.navbar-header{
+  font-family: Lucida Calligraphy;
+}
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
