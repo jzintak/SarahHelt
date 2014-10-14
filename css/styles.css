@@ -138,6 +138,11 @@ margin-right: 20px;
   .marketing {
     margin-top:60px;
   }
+.banner-text{
+  font-size:24px;
+  font-family: Lucida Calligraphy;
+  color: #5a5a5a !important;
+}    
 }
 @media (min-width: 640px) {
 
@@ -155,6 +160,12 @@ margin-right: 20px;
   height: 250px;
   background-color: #777;
 }
+
+.banner-text{
+  font-size:24px;
+  font-family: Lucida Calligraphy;
+  color: #5a5a5a !important;
+}  
 }
 
 
@@ -188,6 +199,12 @@ margin-right: 20px;
   .featurette-heading {
     font-size: 50px;
   }
+
+.banner-text{
+  font-size:24px;
+  font-family: Lucida Calligraphy;
+  color: #5a5a5a !important;
+}  
 }
 
 @media (min-width: 992px) {
@@ -209,6 +226,12 @@ margin-right: 20px;
   .featurette-heading {
     margin-top: 120px;
   }
+  
+.banner-text{
+  font-size:24px;
+  font-family: Lucida Calligraphy;
+  color: #5a5a5a !important;
+}  
 }
 
 @media (min-width: 1250px){
