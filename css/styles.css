@@ -74,7 +74,7 @@ margin-right: 20px;
 
 /* Carousel base class */
 .carousel {
-  height: 450px;
+  height: 190px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -84,7 +84,7 @@ margin-right: 20px;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 450px;
+  height: 190px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
