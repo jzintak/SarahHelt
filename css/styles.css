@@ -74,7 +74,7 @@ margin-right: 20px;
 
 /* Carousel base class */
 .carousel {
-  height: 190px;
+  height: 130px;
   margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -84,7 +84,7 @@ margin-right: 20px;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 190px;
+  height: 130px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -105,6 +105,9 @@ margin-right: 20px;
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
+}
+.carousel-caption{
+   padding-bottom: 0px;
 }
 .marketing h2 {
   font-weight: normal;
@@ -142,7 +145,10 @@ margin-right: 20px;
   font-size:24px;
   font-family: Lucida Calligraphy;
   color: #5a5a5a !important;
-}    
+}  
+body{
+font-size:10px;  
+}
 }
 @media (min-width: 640px) {
 
@@ -154,6 +160,10 @@ margin-right: 20px;
 .carousel-caption {
   z-index: 10;
 }
+.carousel-caption{
+   padding-bottom: 10px;
+}
+
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -183,6 +193,10 @@ margin-right: 20px;
     padding-right: 0;
     padding-left: 0;
   }
+.carousel-caption{
+   padding-bottom: 20px;
+}
+
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
@@ -216,6 +230,7 @@ margin-right: 20px;
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  padding-bottom:20px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -244,6 +259,7 @@ margin-right: 20px;
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  bottom-padding:20px;
 }
 
 /* Declare heights because of positioning of img element */
